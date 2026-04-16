@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#edf3f6;
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    color:#5a2aa6;
+    font-size:50px;
+    font-weight:300;
+    margin-bottom:40px;
+}
+
+.instructor h2{
+    text-align:center;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.photo-box{
+    padding:20px;
+    margin-bottom:10px;
+}
+
+.pilates-bg{
+    background:#f4cfdc;
+}
+
+.strength-bg{
+    background:#d7c2f5;
+}
+
+.yoga-bg{
+    background:#c7d3f5;
+}
+
+.photo-box img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    display:block;
+}
+
+.name{
+    color:#7b6b84;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+p{
+    margin:3px 0;
+}
+
+.diet h2{
+    color:#556b67;
+    font-size:24px;
+    margin:50px 0 0;
+    font-weight:bold;
+}
+
+.diet-subtitle{
+    color:#4d6270;
+    font-size:16px;
+    font-weight:bold;
+    margin:0 0 10px;
+}
+
+table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:10px 8px;
+}
+
+th, td{
+    padding:12px 10px;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    font-size:14px;
+    background:#c9c9c9;
+}
+
+table th:first-child,
+table tr:first-child th{
+    background:#e8b5d7;
+}
+
+.healthy-line{
+
+    background:#bba7d1;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    padding:12px;
+    margin-top:10px;
+}
+
+footer{
+    width:100%;
+    text-align:center;
+    font-size:12px;
+    padding:12px 0;
+    margin-top:40px;
+    background:#f2f5f7;
+    color:#000;
+}
+
+footer p{
+    margin:0;
+}

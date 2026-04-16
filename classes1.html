@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Featured Classes</title>
+<link rel="stylesheet" href="classes1.css">
+<link rel="stylesheet" href="classes2.css">
+</head>
+
+<body>
+
+<main class="page">
+
+  <h1>Featured Classes:</h1>
+
+  <section class="cards">
+    <h2 class="visually-hidden">Class options</h2>
+
+    <article class="card pilates">
+      <div class="card-inner">
+        <h2>Pilates</h2>
+
+        <p class="label">Benefits:-</p>
+        <ul>
+          <li>Balance and flexibility</li>
+          <li>Better Posture</li>
+          <li>Boost in mood</li>
+          <li>Mental clarity</li>
+        </ul>
+
+        <p class="price">PRICE PER CLASS- 60 BD</p>
+
+        <p class="meter-label">Intensity level</p>
+        <meter class="class-meter" min="0" max="10" value="6">6 out of 10</meter>
+
+        <a class="btn" href="contact1.html">JOIN NOW</a>
+        	
+
+      </div>
+    </article>
+
+    <article class="card yoga">
+      <div class="card-inner">
+        <h2>Yoga</h2>
+
+        <p class="label">Benefits:-</p>
+        <ul>
+          <li>Stress reduction</li>
+          <li>Increased Flexibility and Mobility</li>
+          <li>Better Mental focus</li>
+          <li>Better heart health</li>
+        </ul>
+
+        <p class="price">PRICE PER CLASS- 50 BD</p>
+
+       <p class="meter-label">Intensity level</p>
+       <meter class="class-meter" min="0" max="10" value="4">4 out of 10</meter>
+
+       <a class="btn" href="contact1.html">JOIN NOW</a>
+        
+      </div>
+    </article>
+
+    <article class="card strength">
+      <div class="card-inner">
+        <h2>Strength</h2>
+
+        <p class="label">Benefits:-</p>
+        <ul>
+          <li>Higher metabolic rate</li>
+          <li>Increased muscle mass</li>
+          <li>improved bone density</li>
+          <li>increased endurance</li>
+        </ul>
+
+        <p class="price">PRICE PER CLASS- 80 BD</p>
+
+        <p class="meter-label">Intensity level</p>
+        <meter class="class-meter" min="0" max="10" value="9">9 out of 10</meter>
+
+        <a class="btn" href="contact1.html">JOIN NOW</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="chatbot-section">
+    <h2>AI Wellness Chatbot</h2>
+    <p>Ask which class is best for your goal.</p>
+
+    <div class="chatbox">
+      <p id="response">Ask about strength, flexibility, posture, or stress.</p>
+
+      <input type="text" id="user-input">
+      <button onclick="reply()">Send</button>
+    </div>
+  </section>
+
+  <div class="banner">
+    <img src="dumbells.png" alt="Pink dumbbells">
+  </div>
+
+</main>
+
+<footer>
+  <p>Thrive Wellness | Manama, Bahrain | info@thrivewellness.com | +973 1234 5678</p>
+</footer>
+
+<script>
+function reply(){
+
+  var input = document.getElementById("user-input").value.toLowerCase();
+  var output = document.getElementById("response");
+
+  if(input.includes("strength")){
+    output.innerHTML = "Strength training builds muscle.";
+  }
+  else if(input.includes("flexibility")){
+    output.innerHTML = "Yoga improves flexibility.";
+  }
+  else if(input.includes("posture")){
+    output.innerHTML = "Pilates helps posture.";
+  }
+  else{
+    output.innerHTML = "Try asking about strength, flexibility, or posture.";
+  }
+
+}
+</script>
+
+</body>
+</html>

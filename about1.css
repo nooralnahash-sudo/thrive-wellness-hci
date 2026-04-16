@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#edf3f6;
+}
+
+
+h1{
+    text-align:center;
+    font-size:48px;
+    font-weight:300;
+    margin:20px 0;
+}
+
+h2{
+    font-size:40px;
+    font-weight:300;
+    margin:0;
+}
+
+
+.about-box{
+    background:#efd0e3;
+    padding:25px;
+    margin-bottom:30px;
+}
+
+.about-box p{
+    text-align:center;
+    font-size:16px;
+    line-height:1.5;
+    color:#6b6b6b;
+    font-weight:bold;
+    margin:0;
+}
+
+
+.mission-box{
+    background:#c8d3cf;
+    padding:30px;
+}
+
+.mission-box p{
+    text-align:center;
+    font-size:18px;
+    color:#597089;
+    margin:0;
+}
+
+
+.about-details{
+    margin-top:20px;
+    background:#f2f5f7;
+    padding:15px;
+    border-radius:10px;
+}
+
+.about-details summary{
+    font-weight:bold;
+    cursor:pointer;
+    color:#597089;
+}
+
+.about-details p{
+    margin-top:10px;
+    color:#6b6b6b;
+    text-align:left;
+}
+
+
+.bottom-about{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.about-image img{
+    width:400px;
+}
+
+.about-image figcaption{
+    text-align:center;
+    margin-top:8px;
+    font-size:14px;
+    color:#6b6b6b;
+}
+
+
+.rating-box{
+    background:#cfd2e6;
+    padding:40px;
+    text-align:center;
+    width:300px;
+}
+
+.stars{
+    font-size:30px;
+    color:gold;
+}
+
+
+.quote{
+    margin:25px 0;
+    padding:15px 20px;
+    background:#f8edf3;
+    border-left:4px solid #c8d3cf;
+    color:#5f6f6a;
+    font-style:italic;
+}
+
+
+footer{
+    width:100%;
+    text-align:center;
+    font-size:12px;
+    padding:12px 0;
+    margin-top:40px;
+    background:#f2f5f7;
+}
+
+footer p{
+    margin:0;
+}

@@ -1,0 +1,136 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#eaf0f4;
+  color:#1f2a33;
+}
+
+h1{
+  font-weight:300;
+  font-size:48px;
+  color:#6b7f8d;
+  margin:0 0 18px 0;
+}
+
+
+.card h2{
+  text-align:center;
+  font-size:24px;
+  color:#f5c6dc;
+  margin:0 0 18px 0;
+  font-weight:normal;
+}
+
+.label{
+  font-weight:bold;
+  color:white;
+  font-size:16px;
+}
+
+.card ul{
+  margin:0 0 20px 18px;
+  padding-left:14px;
+  line-height:1.5;
+  font-size:14px;
+}
+
+.price{
+  font-weight:900;
+  margin:18px 0 46px;
+  color:#d6ffb8;
+  font-size:15px;
+}
+
+
+.btn{
+  position:absolute;
+  bottom:14px;
+  left:18px;
+  padding:6px 16px;
+  border-radius:20px;
+  border:2px solid white;
+  background:rgba(255,255,255,0.85);
+  text-decoration:none;
+  font-weight:bold;
+  font-size:12px;
+  color:#555;
+}
+
+   .btn:hover{
+   background-color:#88c9bf;
+   color:white;
+}
+
+
+.pilates{ background:#91a99f; }
+.yoga{ background:#6a92c8; }
+.strength{ background:#8a67b7; }
+
+.meter-label{
+  margin:0 0 6px 0;
+  color:white;
+  font-size:13px;
+  font-weight:bold;
+}
+
+.class-meter{
+  width:120px;
+  height:12px;
+  display:block;
+  margin-bottom:42px;
+}
+ 
+
+.banner{
+  background:#ead6e2;
+  padding:18px;
+}
+
+.chatbot-section h2{
+  margin-top:30px;
+  padding:20px;
+  background:#f2f5f7;
+  color:#6b7f8d;
+}
+
+.chatbox{
+  margin-top:10px;
+}
+
+#response{
+  background:white;
+  padding:10px;
+  border:1px solid #ccc;
+  margin-bottom:10px;
+}
+
+#user-input{
+  padding:8px;
+  width:60%;
+}
+
+.chatbox button{
+  padding:8px 15px;
+  background:#5a2aa6;
+  color:white;
+  border:none;
+  border-radius:15px;
+}
+.chatbox button:hover{
+  background-color:#88c9bf;
+}
+
+
+footer{
+  width:100%;
+  text-align:center;
+  font-size:12px;
+  padding:12px 0;
+  margin-top:40px;
+  background:#f2f5f7;
+  color:#000;
+}
+
+footer p{
+  margin:0;
+}

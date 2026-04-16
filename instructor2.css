@@ -1,0 +1,46 @@
+/* page width */
+.container{
+    width:900px;
+    margin:auto;
+    padding-top:20px;
+}
+
+/* make instructors horizontal */
+.instructors{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+/* instructor column */
+.instructor{
+    width:260px;
+}
+
+@media (max-width: 768px){
+
+    .container{
+        width:95%;
+    }
+
+    .instructors{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .instructor{
+        width:100%;
+        max-width:300px;
+    }
+
+}
+.visually-hidden{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    border:0;
+}
